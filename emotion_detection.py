@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import random
 from ultralytics import YOLO
 
 class_list = ['anger', 'contempt',  'disgust','fear', 'happy', 'neutral', 'sad', 'surprise']
